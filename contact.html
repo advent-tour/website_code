@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="own_img/logo.jpeg" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,6 +43,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <!-- <img src="own_img/logo.jpeg" alt="" id="nav_logo"> -->
         <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
             <h2 class="mb-2 text-white">Advent Tours</h2>
         </a>
@@ -103,30 +104,84 @@
                     <div class="bg-light p-4">
                         <form action="https://formbold.com/s/9Rd2D" method="POST">
                             <div class="row g-3">
+
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
+
                                 <div class="col-md-6">
                                     <div class="form-floating">
                                         <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
                                         <label for="email">Your Email</label>
                                     </div>
                                 </div>
+
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
+                                        <input type="text" class="form-control" id="subject" name="phone no" placeholder="Subject">
+                                        <label for="subject">Contact number</label>
                                     </div>
                                 </div>
+
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" name="message" id="message" style="height: 100px"></textarea>
-                                        <label for="message">Message</label>
+                                        <textarea class="form-control" placeholder="Leave a message here" name="address" id="message" style="height: 100px"></textarea>
+                                        <label for="message">Address</label>
                                     </div>
                                 </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="select your destination" name="destination" id="destination" style="height: 100px"></textarea>
+                                        <label for="destination">select your Destination</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" name="Hotel Preferences" placeholder="Hotel Preferences">
+                                        <label for="subject">Hotel Preferences</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="hotel_preferences" name="Flexible of Hotel" aria-label="Hotel Preferences">
+                                            <option selected disabled>Flexible of Hotel</option>
+                                            <option value="wifi">Yes</option>
+                                            <option value="breakfast">No</option>
+                                        </select>
+                                        <label for="hotel_preferences">Hotel Preferences</label>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="date" class="form-control" id="checkin_date" name="Dates of Travel" placeholder="Check-in Date">
+                                        <label for="checkin_date">Dates of Travel</label>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input class="form-control" placeholder="select your destination" name="Number of adult and children" id="destination"></input>
+                                        <label for="destination">Number of adult and children</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="Duration of trip" name="email" placeholder="Your Email">
+                                        <label for="email">Duration of trip</label>
+                                    </div>
+                                </div>
+
+
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                                 </div>
